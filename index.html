@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back_ios" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Dot Dager | Falopa</title>
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" id="toggle-menu">
+        <label class="header__menu-label" for="toggle-menu"><span class="material-symbols-outlined">arrow_back_ios</span></label>
+        
+        <h1 class="header__logo">FALOPA<span>.</span></h1>
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="list-item"><a href="#main">HOME</a></li>
+                <li class="list-item"><a href="#about-me">ABOUT ME</a></li>
+                <li class="list-item"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main" id="main">
+        <div class="main__section1">
+            <img class="section1__img" src="img/profile.jpg">
+            <p class="section1__text">I'm <span>Dot Dager</span></p>
+            <p class="section1__symbol">﹀</p>
+        </div>
+        <div class="main__section2">
+            <div class="section2__gradient"></div>
+            <div class="section2__text-container">
+                <p class="section2__symbol">❝</p>
+                <p class="section2__phrase">"Codear es golpear<br> con los codos"</p>
+                <p class="section2__author">- Dot Dager</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="section-1" id="about-me">
+        <h2 class="section-1__title">ABOUT ME</h2>
+        <div class="section-1__topic-container">
+            <div class="topic-container__img-container">
+                <div class="img-container__gradient programming"></div>
+                <h3 class="img-container__topic-title">Programming</h3>
+            </div>
+            <p class="topic-container__info">I am a <span>Full-Stack</span> Programmer with experience in web application development, both client-side and server-side. I have solid skills in front-end development, including <span>HTML, CSS, JavaScript</span> and frameworks such as <span>React and Angular</span>. On the back-end side, I have experience with technologies such as <span>Node.js, Python and Ruby on Rails</span>, as well as database management such as <span>MySQL and MongoDB</span>.
+            </p>
+            <p class="topic-container__symbol">〉</p>
+        </div>
+        <div class="section-1__topic-container">
+            <div class="topic-container__img-container cats">
+                <div class="img-container__gradient"></div>
+                <h3 class="img-container__topic-title">Cats</h3>
+            </div>
+            <p class="topic-container__info">I love <span>cats</span> for many reasons! They provide me with a unique form of <span>companionship</span>, often being affectionate and creating a <span>strong bond between us</span>. Their playful nature brings joy to my home, as I find their antics <span>entertaining</span>, whether they're chasing toys or pouncing on shadows.</p>
+            <p class="topic-container__symbol">〉</p>
+        </div>
+        <div class="section-1__topic-container">
+            <div class="topic-container__img-container guitars">
+                <div class="img-container__gradient"></div>
+                <h3 class="img-container__topic-title">Guitars</h3>
+            </div>
+            <p class="topic-container__info">I love playing the <span>guitar</span> for several reasons! First and foremost, it allows me to <span>express my emotions</span> and creativity in a way that feels deeply fulfilling. Whenever I pick up my guitar, I can <span>escape into my own world</span>, creating melodies and rhythms that reflect how I feel.</p>
+            <p class="topic-container__symbol">〉</p>
+        </div>
+        <div class="section-1__topic-container">
+            <div class="topic-container__img-container philosophy">
+                <div class="img-container__gradient"></div>
+                <h3 class="img-container__topic-title">Philosophy</h3>
+            </div>
+            <p class="topic-container__info">I love <span>philosophy</span> because it offers me a profound way to explore the meaning of life and my place in the world. Dixon Maya's idea that <span>"He who has a why to live can bear almost any how"</span> resonates deeply with me. This perspective highlights the importance of having a <span>purpose or meaning in life</span>, which I find essential for navigating the challenges I encounter.
+            </p>
+            <p class="topic-container__symbol">〉</p>
+        </div>
+        <div class="section-1__topic-container">
+            <div class="topic-container__img-container pickles">
+                <div class="img-container__gradient"></div>
+                <h3 class="img-container__topic-title">Pickles</h3>
+            </div>
+            <p class="topic-container__info">In a more <span>playful sense</span>, pickles can symbolize a certain boldness and fun in life. Just like in <span>relationships</span>, it's about savoring the unexpected and embracing the <span>quirky aspects</span> that bring joy and excitement. The juicy, briny flavor can serve as a reminder to explore and indulge in the <span>pleasures</span> that life has to offer.</p>
+            <p class="topic-container__symbol">〉</p>
+        </div>
+    </section>
+
+    <section class="section-2" id="contact">
+        
+        <div class="section-2__gradient"></div>
+        <form class="section-2__form">
+            <h2 class="form__title">CONTACT</h2>
+
+            <label for="name">Name</label>
+            <input type="text" class="form__input" id="name" placeholder="Rosa Melano" minlength="4">
+
+            <label for="subject">Subject</label>
+            <input type="text" class="form__input" id="subject" placeholder="Bussines" minlength="4">
+
+            <label for="email">Email</label>
+            <input type="email" class="form__input" id="email" placeholder="rosamelano@example.com">
+
+            <label for="message">Message</label>
+            <textarea class="form__textarea" id="message" placeholder="Message" minlength="10"></textarea>
+
+            <input type="submit" class="form__submit" value="Send">
+
+            <ul class="form__list-form">
+                <li class="list-form__item"><a href="https://www.instagram.com/dager.32/" class="extra__icon" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                <li class="list-form__item"><a href="https://www.youtube.com/@DotDager" class="extra__icon" target="_blank"><i class="bi bi-youtube"></i></a></li>
+                <li class="list-form__item"><a href="https://github.com/MarianoVilla" class="extra__icon" target="_blank"><i class="bi bi-github"></i></a></li>
+            </ul>
+            <p class="form__email">mariano@gmail.com</p>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__info-container">
+            <p class="info-container__text">Made with:</p>
+            <div class="info-container__icon">
+                <img class="icon__img" src="img/html.webp">
+                <img class="icon__img" src="img/css.webp">
+            </div>
+            <p class="info-container__copy"> © Copyright SkyBxne 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
