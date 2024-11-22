@@ -53,7 +53,7 @@ a {
 .list-item a {
     color: #ccc;
     font-weight: 700;
-    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-size: clamp(1.5rem, 1.5vw, 2rem);
     border-bottom: 2px solid #AD49E1;
 }
 
@@ -189,7 +189,7 @@ a {
 }
 
 .section1__text {
-    font-size: clamp(2rem, 3vw, 4.2rem);
+    font-size: clamp(2rem, 2vw, 4.2rem);
     font-family: monospace;
     position: relative;
     z-index: 11;
@@ -231,7 +231,7 @@ a {
     position: absolute;
     color: #AD49E1;
     z-index: 7;
-    font-size: clamp(20rem, 12vw, 25rem);
+    font-size: clamp(20rem, 5vw, 25rem);
     top: -250px;
     animation: load-animation-c 2s both;
 }
@@ -240,7 +240,7 @@ a {
     position: relative;
     color: #fff;
     z-index: 7;
-    font-size: clamp(2.7rem, 3.5vw, 5rem);
+    font-size: clamp(2.7rem, 2.7vw, 5rem);
     animation: load-animation-c 2s both;
 }
 
@@ -249,7 +249,7 @@ a {
     font-family: "Cedarville Cursive", serif;
     color: #AD49E1;
     z-index: 7;
-    font-size: clamp(2rem, 3vw, 4rem);
+    font-size: clamp(2rem, 2vw, 4rem);
     margin-left: 30px;
     animation: load-animation-c 2s both;
 }
@@ -558,7 +558,7 @@ a {
 
 .section-2__form label {
     color: #AD49E1;
-    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    font-size: clamp(1.2rem, 1.2vw, 1.8rem);
     letter-spacing: 2.2px;
     font-family: "Cedarville Cursive", serif;
     margin: auto;
@@ -567,7 +567,7 @@ a {
 
 .form__title {
     color: #AD49E1;
-    font-size: clamp(3rem, 2.5vw, 5rem);
+    font-size: clamp(3rem, 3vw, 5rem);
     font-family: monospace;
     letter-spacing: 3px;
     text-align: center;
@@ -584,7 +584,7 @@ a {
     border-bottom: 2px solid #ccc;
     width: 85%;
     height: 40px;
-    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    font-size: clamp(1.2rem, 1.2vw, 1.8rem);
     color: #fff;
     margin: auto;
     margin-bottom: 20px;
@@ -610,7 +610,7 @@ a {
     border-bottom: 2px solid #ccc;
     width: 85%;
     height: 80px;
-    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    font-size: clamp(1.2rem, 1.2vw, 1.8rem);
     color: #fff;
     margin: auto;
     resize: none;
@@ -626,7 +626,7 @@ a {
     border-radius: 15px;
     width: 40%;
     height: 40px;
-    font-size: clamp(1.2rem, 2vw, 1.8rem);
+    font-size: clamp(1.2rem, 1.2vw, 1.8rem);
     color: #fff;
     margin: auto;
     margin-top: 20px;  
@@ -646,14 +646,14 @@ a {
 .list-form__item a {
     color: #fff;
     text-align: center;
-    font-size: clamp(2rem, 2.2vw, 3rem);
+    font-size: clamp(2rem, 2vw, 3rem);
 }
 
 .form__email {
     color: #ccc;
     font-family: monospace;
     margin: auto;
-    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-size: clamp(1.5rem, 1.5vw, 2rem);
     letter-spacing: 1.5px;
     margin-bottom: 20px;
 }
