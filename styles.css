@@ -45,7 +45,7 @@ a {
 }
 
 .header__logo {
-    font-size: clamp(2rem, 3vw, 4rem);
+    font-size: clamp(2rem, 2vw, 4rem);
     position: relative;
     z-index: 51;
 }
