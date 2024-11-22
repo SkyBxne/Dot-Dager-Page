@@ -438,7 +438,7 @@ a {
     display: none;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1500px) {
 
     .section-1 {
         gap: 50px;
